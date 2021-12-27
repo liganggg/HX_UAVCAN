@@ -1,0 +1,13 @@
+uint8 CMD_DATALINK_PAIR = 1
+
+uint8 ENABLE = 0xA5	
+uint8 DISABLE = 0X5A
+
+uint8 cmd
+uint8 param1	
+uint8 param2
+uint8 param3
+---
+
+bool ok
+uint8 res_value		#response value ,set zero if useless 

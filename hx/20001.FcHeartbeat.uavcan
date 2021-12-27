@@ -1,0 +1,11 @@
+
+uint16 speed
+uint16 alt
+ 
+uint16 roll
+uint16 pitch
+uint16 yaw
+
+uint8 yaw_mode
+uint8 worksys_state
+uint16[3] worksys_status

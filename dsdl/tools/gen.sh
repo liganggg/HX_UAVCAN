@@ -3,7 +3,7 @@ set -e
 SCRIPT=$(readlink -f "$0")
 SCRIPT_PATH=$(dirname "$SCRIPT")
 
-LIBUAVCAN_PATH=${SCRIPT_PATH}/../../libuavcan
+LIBUAVCAN_PATH=${SCRIPT_PATH}/../../../libuavcan
 DSDL_GENERATOR_PATH=${LIBUAVCAN_PATH}/libuavcan/dsdl_compiler
 UAVCAN_DSDL_PATH=${LIBUAVCAN_PATH}/dsdl/uavcan
 CUSTOM_DSDL_PATH=${SCRIPT_PATH}/../hx
